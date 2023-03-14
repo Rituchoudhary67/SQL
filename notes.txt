@@ -1,6 +1,0 @@
-#########  W3School  #########
-
-Todos for today
-1. Home
-2. Intro
-3. Syntax
