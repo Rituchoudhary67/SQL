@@ -3,6 +3,6 @@
 Todos for today
 1. sql - home, intro and syntax   ---done
 2. maths ke notes and send to anu   ---done
-3. mca prepration ----most important
+3. mca prepration ----most important  --incomplete
 4. if statistics notes. ---not done 
-5. js by akshay shani  ---working
+5. js by akshay shani  ---incomplete
