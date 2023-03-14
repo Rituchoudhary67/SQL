@@ -1,0 +1,77 @@
+sql - home, intro and syntax
+
+HOME 
+SQL is a standard language for storing, manipulating and retrieving data in databases.
+
+Introduction to SQL
+
+1. What is SQL?
+SQL stands for Structured Query Language
+SQL lets us to access and manipulate databases
+
+2. What Can SQL do?
+SQL can execute queries against a database , retrieve data from a database
+insert records in a database , update records in a database
+delete records from a database , create new databases
+create new tables in a database , create stored procedures in a database
+create views in a database , set permissions on tables, procedures, and views.
+
+3. SQL Syntax?
+SQL keywords are NOT case sensitive: select is the same as SELECT
+
+4. Some of The Most Important SQL Commands?
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
