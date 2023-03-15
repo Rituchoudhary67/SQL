@@ -10,7 +10,7 @@ Todos for today
 15 march 2023 
 Todos for today
 1. mca prepration
-2. sql - select , select distinct, where.
+2. sql - select , select distinct, where.  ---done
 3. namaste js
 4. maths practice.
 5. statistics notes making

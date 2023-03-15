@@ -58,3 +58,17 @@ output : Maharashtra
          
 
 ######### SQL WHERE Clause #########
+The WHERE clause is used to filter records.
+
+# WHERE Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+Note: The WHERE clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
+
+Q. selects all the customers from the cust_state "MP", in the "Customers" table:
+
+output :-  cust id       cust_Name     cust_city    cust_state
+           04            Prabhat       Jabalpur     MP 
+           05            Taher         Indore       MP
