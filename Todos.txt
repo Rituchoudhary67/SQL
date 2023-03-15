@@ -12,5 +12,5 @@ Todos for today
 1. mca prepration
 2. sql - select , select distinct, where.  ---done
 3. namaste js
-4. maths practice.
+4. maths practice.  ---done
 5. statistics notes making
