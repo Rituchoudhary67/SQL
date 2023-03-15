@@ -6,3 +6,10 @@ Todos for today
 3. mca prepration ----most important  --incomplete
 4. if statistics notes. ---not done 
 5. js by akshay shani  ---incomplete
+
+15 march 2023 
+Todos for today
+1. mca prepration
+2. sql - select , select distinct, where.
+3. namaste js
+4. maths practice.
