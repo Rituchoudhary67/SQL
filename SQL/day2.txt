@@ -19,9 +19,17 @@ cust id       cust_Name     cust_city
 
 Q. selects the "cust_Name" and "cust_city" columns from the "Customers" table:
 Ans :- SELECT cust_Name , cust_city FROM Customers;
+output  cust_Name        cust_city
+        Ritu             Maharashtra
+        Ravie            Bokaro
+        Kishore          Benglore
 
 Q. selects all the columns from the "Customers" table:?
 Ans :- SELECT * FROM Customers;
+output   cust id     cust_Name      cust_city
+         01          Ritu           Nagpur
+         02          Ravie          Bokaro
+         03          Kishore        Benglore
 
 
 ######### SQL SELECT DISTINCT Statement #########
