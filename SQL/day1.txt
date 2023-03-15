@@ -10,8 +10,8 @@ SQL stands for Structured Query Language
 SQL lets us to access and manipulate databases
 
 2. What Can SQL do?
-SQL can execute queries against a database , retrieve data from a database
-insert records in a database , update records in a database
+SQL can execute queries against a database , it retrieve data from a database
+it insert records in a database ,it update records in a database
 delete records from a database , create new databases
 create new tables in a database , create stored procedures in a database
 create views in a database , set permissions on tables, procedures, and views.

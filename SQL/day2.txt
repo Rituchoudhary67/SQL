@@ -1,0 +1,60 @@
+######### sql - select , select distinct, where. #########
+
+#SQL SELECT Statement
+The SELECT statement is used to select data from a database.
+The data returned is stored in a result table, called the result-set.
+
+#SELECT Syntax
+SELECT column1, column2, ...
+FROM table_name;
+
+NOTE :- if i want to select all the data so the following synatx :- SELECT * FROM table_name;
+
+Ex :
+
+cust id       cust_Name     cust_city
+01            Ritu          Nagpur
+02            Ravie         Bokaro
+03            Kishore       Benglore
+
+Q. selects the "cust_Name" and "cust_city" columns from the "Customers" table:
+Ans :- SELECT cust_Name , cust_city FROM Customers;
+
+Q. selects all the columns from the "Customers" table:?
+Ans :- SELECT * FROM Customers;
+
+
+######### SQL SELECT DISTINCT Statement #########
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+
+
+#SELECT DISTINCT Syntax
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+EX :
+cust id       cust_Name     cust_city    cust_state
+01            Ritu          Nagpur       Maharashtra
+02            Ravie         Bokaro       Jharkhand
+03            Kishore       Bangalore    Karnataka
+04            Prabhat       Jabalpur     MP 
+05            Taher         Indore       MP
+
+Q. selects all (including the duplicates) values from the "cust_state" column in the "Customers" table:
+Ans :- SELECT cust_state FROM Customers;
+output : Maharashtra
+         Jharkhand
+         Karnataka
+         MP
+         MP
+
+
+by useing the SELECT DISTINCT statement 
+Ans :- SELECT DISTINCT cust_state FROM Customers;
+output : Maharashtra
+         Jharkhand
+         Karnataka
+         MP
+         
+
+######### SQL WHERE Clause #########

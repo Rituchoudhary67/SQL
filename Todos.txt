@@ -13,3 +13,4 @@ Todos for today
 2. sql - select , select distinct, where.
 3. namaste js
 4. maths practice.
+5. statistics notes making
