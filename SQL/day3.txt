@@ -1,0 +1,64 @@
+##########  sql -- and ,or,not,order by,insert into,null values #########
+
+#SQL AND, OR and NOT Operators
+
+The WHERE clause can be combined with AND, OR, and NOT operators.
+
+The AND and OR operators are used to filter records based on more than one condition:
+
+    The AND operator displays a record if all the conditions separated by AND are TRUE.
+    The OR operator displays a record if any of the conditions separated by OR is TRUE.
+    The NOT operator displays a record if the condition(s) is NOT TRUE.
+
+# AND Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+# OR Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+# NOT Syntax
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+AND Example
+Q. selects all fields from "Customers" where country is "India" AND cust_city is "Bokaro":
+Ans : SELECT * FORM Customers
+      WHERE country="India" AND cust_city="Bokaro"
+ouput :  cust_id         cust_name         cust_city       cust_state        country
+         02              Raive             Bokaro          Jharkhand         India
+
+OR Example
+Q. selects all fields from "Customers" where cust_city is "Nagpur" OR "Bokaro":
+Ans :  SELECT * FROM Customers
+       WHERE cust_city='Nagpur' OR cust_city='Bokaro';
+
+ouput :  cust_id         cust_name         cust_city       cust_state        country
+         01              Ritu              Nagpur          Maharashtra       India
+         02              Raive             Bokaro          Jharkhand         India
+
+NOT Example
+Q.  selects all fields from "Customers" where cust_city is NOT "Nagpur":
+Ans : SELECT * FROM Customers
+      WHERE NOT cust_city='Nagpur';
+
+output : cust_id         cust_name         cust_city       cust_state        country
+         02              Raive             Bokaro          Jharkhand         India
+         03              Kishore           Bangolore       Karnataka         India
+         04              Taher             Indore          MP                India
+         05              Ahad              Patna           Bihar             India
+         06              Prabhat           satna           MP                India

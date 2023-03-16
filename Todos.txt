@@ -17,7 +17,7 @@ Todos for today
 
 16 march 2023
 todos for today
-1. sql 
+1. sql -- and ,or,not,order by,insert into,null values
 2. mca
 3. reading bg
 4. compiler programing
