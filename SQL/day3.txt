@@ -111,3 +111,59 @@ output :    cust_id         cust_name         cust_city       cust_state        
             02              Raive             Bokaro          Jharkhand         India
             01              Ritu              Nagpur          Maharashtra       India
 
+
+########### SQL INSERT INTO Statement ##########
+The INSERT INTO statement is used to insert new records in a table.
+
+# INSERT INTO Syntax
+It is possible to write the INSERT INTO statement in two ways:
+
+1. Specify both the column names and the values to be inserted:
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+2. INSERT INTO syntax would be as follows:
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+Q. inserts a new record in the "Customers" table:
+Ans :  INSERT INTO Customers (cust_name, cust_city, cust_state, country)
+       VALUES ('Sujata','Nagpur','Maharashtra','India');
+
+output : cust_id         cust_name         cust_city       cust_state        country
+         01              Ritu              Nagpur          Maharashtra       India
+         02              Raive             Bokaro          Jharkhand         India
+         03              Kishore           Bangolore       Karnataka         India
+         04              Taher             Indore          MP                India
+         05              Ahad              Patna           Bihar             India
+         06              Prabhat           satna           MP                India
+         07              Sujata            Nagpur          Maharashtra       India
+
+Note :- here we don't write the cust_id but it is taken automatically
+
+Q. Insert Data Only in Specified Columns (i.e only insert data in cust_state, country and cust_name)
+Ans : INSERT INTO Customers (cust_state,country,cust_name)
+      VALUES ('UP','India','Rajesh');
+
+output          cust_id         cust_name         cust_city       cust_state        country
+                01              Ritu              Nagpur          Maharashtra       India
+                02              Raive             Bokaro          Jharkhand         India
+                03              Kishore           Bangolore       Karnataka         India
+                04              Taher             Indore          MP                India
+                05              Ahad              Patna           Bihar             India
+                06              Prabhat           satna           MP                India
+                07              Rajesh            null            UP                India
+                
