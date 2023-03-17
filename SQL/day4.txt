@@ -1,0 +1,62 @@
+############ SQL UPDATE Statement ##############
+
+The UPDATE statement is used to modify the existing records in a table.
+
+# UPDATE Syntax
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+Note: Be careful when updating records in a table! Notice the WHERE clause in the UPDATE statement.
+      The WHERE clause specifies which record(s) that should be updated. If you omit the WHERE clause,
+      all records in the table will be updated!
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+Q. update the cust_name and cust_city of cust_id = 03
+Ans : UPDATE Customers
+      SET cust_name = 'Heroin' , cust_city = 'Vijaywara'
+      WHERE cust_id = 03;
+
+output : cust_id         cust_name         cust_city       cust_state        country
+         01              Ritu              Nagpur          Maharashtra       India
+         02              Raive             Bokaro          Jharkhand         India
+         03              Heroien           Vijaywara       Karnataka         India
+         04              Taher             Indore          MP                India
+         05              Ahad              Patna           Bihar             India
+         06              Prabhat           satna           MP                India
+
+Q. update all cust_city which is having cust_state as MP
+Ans : UPDATE Customers
+      SET cust_city = 'Bangolore'
+      WHERE cust_state = 'MP';
+
+ouput :    cust_id         cust_name         cust_city       cust_state        country
+           01              Ritu              Nagpur          Maharashtra       India
+           02              Raive             Bokaro          Jharkhand         India
+           03              Kishore           Bangolore       Karnataka         India
+           04              Taher             Bangolore       MP                India
+           05              Ahad              Patna           Bihar             India
+           06              Prabhat           Bangolore       MP                India    
+
+Note : if we forget to add WHERE keyword so it will update all the value 
+
+Example : UPDATE Customers
+          SET cust_city = 'Bangolore';
+
+output :   cust_id         cust_name         cust_city       cust_state        country
+           01              Ritu              Bangolore       Maharashtra       India
+           02              Raive             Bangolore       Jharkhand         India
+           03              Kishore           Bangolore       Karnataka         India
+           04              Taher             Bangolore       MP                India
+           05              Ahad              Bangolore       Bihar             India
+           06              Prabhat           Bangolore       MP                India          
