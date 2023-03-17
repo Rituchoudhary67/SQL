@@ -60,3 +60,40 @@ output :   cust_id         cust_name         cust_city       cust_state        c
            04              Taher             Bangolore       MP                India
            05              Ahad              Bangolore       Bihar             India
            06              Prabhat           Bangolore       MP                India          
+
+
+########### SQL DELETE Statement ##########
+
+The DELETE statement is used to delete existing records in a table.
+
+# DELETE Syntax
+DELETE FROM table_name WHERE condition;
+
+Note : if we forget to write WHERE clouse it will delete all the records from table
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+Q. delete cust_name having Value Ritu
+
+Ans: DELETE FROM Customers WHERE cust_name = 'Ritu';
+
+output: cust_id         cust_name         cust_city       cust_state        country
+        02              Raive             Bokaro          Jharkhand         India
+        03              Kishore           Bangolore       Karnataka         India
+        04              Taher             Indore          MP                India
+        05              Ahad              Patna           Bihar             India
+        06              Prabhat           satna           MP                India
+
+Q. delete all records from customers table
+Ans : DELETE FORM Customers;
+
+output: 
+
