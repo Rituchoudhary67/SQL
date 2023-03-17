@@ -109,3 +109,23 @@ Returning a large number of records can impact performance.
 
 Note: Not all database systems support the SELECT TOP clause. MySQL supports the LIMIT clause to select
       a limited number of records, while Oracle uses FETCH FIRST n ROWS ONLY and ROWNUM.
+
+
+############## SQL MIN() and MAX() Functions ##############
+
+The MIN() function returns the smallest value of the selected column.
+
+The MAX() function returns the largest value of the selected column.
+
+# MIN() Syntax
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+# MAX() Syntax
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+
+
+
