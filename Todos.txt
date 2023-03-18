@@ -29,10 +29,18 @@ todos for today
 todos for today
 1. sql --update,delete,select top,min and max ---done
 2. mca
-3. compiler programing
+3. compiler programing --working
 4. statistics
 5. maths --done
 
+18 march 2023
+todos for today
+1. compiler programing
+2. statistics
+3. maths
+4. mca
+5. sql
+6. bg reading 
 
 
 
