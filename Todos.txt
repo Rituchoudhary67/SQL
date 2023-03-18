@@ -35,7 +35,7 @@ todos for today
 
 18 march 2023
 todos for today
-1. compiler programing
+1. compiler programing  --done
 2. statistics
 3. maths
 4. mca
