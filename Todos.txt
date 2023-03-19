@@ -37,10 +37,16 @@ todos for today
 todos for today
 1. compiler programing  --done
 2. statistics
-3. maths
+3. maths   --done
 4. mca
-5. sql
-6. bg reading 
+6. bg reading  --done 
+
+19 march 2023
+1. mca
+2. compiler programing
+3. sql
+4. maths
+5. statistics
 
 
 
