@@ -50,4 +50,9 @@ todos for today
 5. statistics
 
 
-
+20 march 2023
+1. mca --working
+2. maths practice  --working
+3. compiler programing
+4. sql
+5. statistics
