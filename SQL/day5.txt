@@ -48,3 +48,51 @@ There are two wildcards often used in conjunction with the LIKE operator:
 SELECT column1, column2, ...
 FROM table_name
 WHERE columnN LIKE pattern; 
+
+####### SQL IN Operator #########
+
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+# IN Syntax
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+
+or:
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT STATEMENT);
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+Q. selects all customers that are located in "Maharashtra", "Jharkhand" or "Karnataka":
+
+Ans : SELECT * FROM Customers
+      WHERE cust_state IN ('Maharashtra', 'Jharkhand', 'Karnataka');
+
+output     cust_id         cust_name         cust_city       cust_state        country   
+           01              Ritu              Nagpur          Maharashtra       India
+           02              Raive             Bokaro          Jharkhand         India
+           03              Kishore           Bangolore       Karnataka         India
+
+Q. select all the customers that are not located in "Maharashtra","Jharkhand" or "Karnataka"
+
+Ans : SELECT * FORM Customers
+      WHERE cust_state NOT IN ('Maharashtra','Jharkhand','Karnataka');
+
+output      cust_id         cust_name         cust_city       cust_state        country
+            04              Taher             Indore          MP                India
+            05              Ahad              Patna           Bihar             India
+            06              Prabhat           satna           MP                India 
+            

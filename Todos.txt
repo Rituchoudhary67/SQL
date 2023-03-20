@@ -54,5 +54,5 @@ todos for today
 1. mca --slightly done
 2. maths practice  --done
 3. compiler programing
-4. sql
+4. sql --working
 5. statistics
