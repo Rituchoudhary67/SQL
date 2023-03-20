@@ -51,8 +51,8 @@ todos for today
 
 
 20 march 2023
-1. mca --working
-2. maths practice  --working
+1. mca --slightly done
+2. maths practice  --done
 3. compiler programing
 4. sql
 5. statistics
