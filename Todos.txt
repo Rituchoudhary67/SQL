@@ -54,7 +54,7 @@ todos for today
 1. mca --slightly done
 2. maths practice  --done
 3. compiler programing
-4. sql --working
+4. sql --previousthings to complete
 5. statistics
 
 21 march 2023
