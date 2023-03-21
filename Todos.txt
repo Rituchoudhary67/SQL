@@ -39,7 +39,7 @@ todos for today
 2. statistics
 3. maths   --done
 4. mca
-5.sql--count,avg,sum,like,wildcards,in
+5.sql--count,avg,sum,like,wildcards,in -done
 6. bg reading  --done 
 
 19 march 2023
@@ -56,3 +56,7 @@ todos for today
 3. compiler programing
 4. sql --working
 5. statistics
+
+21 march 2023
+1. sql --previous things to complete
+2. maths -revision 
