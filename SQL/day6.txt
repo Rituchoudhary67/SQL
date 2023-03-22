@@ -70,4 +70,48 @@ An alias is created with the AS keyword.
   SELECT column_name(s)
   FROM table_name AS alias_name;
 
-#### 
+#### SQL JOIN #####
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+demo table : Product
+
+product_id     Product_name      quantity      price       total
+01             Saree             20            200         2000
+02             T-Shirt           10            100         1000
+03             Kurti             5             200         1000
+04             lagi              5             120         600
+
+demo table :- Customers
+
+cust_id         cust_name         cust_city       cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+
+
+Example:
+SELECT Product.product_id, customers.cust_name, Product.total
+FROM Product
+INNER JOIN Customers ON Product.cust_id=Customers.CustomerID;
+
+output : product_id       cust_name      total
+         01               Ritu           2000 
+         02               Raive          1000
+         03               Kishore        1000
+         04               Taher          600
+
+## Different Types of SQL JOINs
+Here are the different types of the JOINs in SQL:
+
+(INNER) JOIN: Returns records that have matching values in both tables
+
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+ref link :- https://www.w3schools.com/sql/sql_join.asp
+
