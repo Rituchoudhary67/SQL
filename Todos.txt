@@ -62,6 +62,6 @@ todos for today
 2. maths -revision 
 
 22 march 2023
-1. compiler programing
-2. sql
+1. compiler programing --done
+2. sql  --done
 3. statistics
