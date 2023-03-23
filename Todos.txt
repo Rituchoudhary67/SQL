@@ -65,3 +65,8 @@ todos for today
 1. compiler programing --done
 2. sql  --done
 3. statistics --working
+
+23 march 2023
+1. maths
+2. sql
+3. anylisies of sem 5 paper
