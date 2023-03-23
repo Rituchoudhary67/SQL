@@ -67,6 +67,6 @@ todos for today
 3. statistics --working
 
 23 march 2023
-1. maths
+1. maths --done
 2. sql
-3. anylisies of sem 5 paper
+3. anylisies of sem 5 paper  --decide to not fill rechecking form and focus on study 
