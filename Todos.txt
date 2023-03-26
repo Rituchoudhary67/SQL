@@ -81,5 +81,5 @@ todos for today
 1. statistics - 1pyp
 2. maths - go thorugh the concept
 3. sql
-4. maths
-
+4. maths -- done
+note - not statified wit todays work
