@@ -75,5 +75,11 @@ todos for today
 1. statistics practical -- done
 
 25 march 2023
-1. maths revision
- 
+1. maths revision --working
+
+26 march 2023
+1. statistics - 1pyp
+2. maths - go thorugh the concept
+3. sql
+4. maths
+
