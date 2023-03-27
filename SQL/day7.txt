@@ -77,3 +77,76 @@ WHERE condition;
 
 T1 and T2 are different table aliases for the same table.
 
+
+
+######### The SQL UNION Operator #########
+The UNION operator is used to combine the result-set of two or more SELECT statements.
+
+1. Every SELECT statement within UNION must have the same number of columns
+2. The columns must also have similar data types
+3. The columns in every SELECT statement must also be in the same order
+
+# UNION Syntax
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+
+UNION ALL Syntax
+The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL:
+
+# syntax
+SELECT column_name(s) FROM table1
+UNION ALL
+SELECT column_name(s) FROM table2;
+
+demo table :- Customers
+
+cust_id         cust_name         city            cust_state        country
+01              Ritu              Nagpur          Maharashtra       India
+02              Raive             Bokaro          Jharkhand         India
+03              Kishore           Bangolore       Karnataka         India
+04              Taher             Indore          MP                India
+05              Ahad              Patna           Bihar             India
+06              Prabhat           satna           MP                India
+
+demo table : Products
+
+product_id     Product_name   city         quantity      price       total
+01             Saree          Nagpur       20            200         2000
+02             T-Shirt        Kanpur       10            100         1000
+03             Kurti          Satna        5             200         1000
+04             lagi           Vijaywara    5             120         600
+
+Q. select city from Customers and products
+Ans : SELECT city FROM Customers
+      UNION
+      SELECT city FROM Product
+      ORDER BY city;
+
+output :  city
+          Nagpur
+          Bokaro
+          Bangolore
+          Indore
+          Patna
+          satna
+          Kanpur
+          Vijaywara
+
+Q. select city from Customers and products (duplicate values also)?
+Ans :  SELECT city FROM Customers
+       UNION ALL
+       SELECT city FROM products
+       ORDER BY city;
+
+output : city
+         Nagpur
+         Bokaro
+         Bangolore
+         Indore
+         Patna
+         satna
+         Nagpur
+         Kanpur
+         satna
+         Vijaywara
