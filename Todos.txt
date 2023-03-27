@@ -83,3 +83,10 @@ todos for today
 3. sql
 4. maths -- done
 note - not statified wit todays work
+
+27 march 2023
+1. pyp statistics
+2. maths revision
+3. maths study
+4. sql
+
