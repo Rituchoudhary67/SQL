@@ -91,7 +91,7 @@ note - not statified wit todays work
 4. sql
 
 28 march 2023
-1. maths - test,writting
+1. maths - test,writting   --done
 2. backlog prepration
    1. maths
    2. statistics
