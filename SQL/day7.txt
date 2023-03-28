@@ -150,5 +150,3 @@ output : city
          Kanpur
          satna
          Vijaywara
-
-..
