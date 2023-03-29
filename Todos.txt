@@ -93,6 +93,9 @@ note - not statified wit todays work
 28 march 2023
 1. maths - test,writting   --done
 2. backlog prepration
-   1. maths
-   2. statistics
+   1. maths  --not done
+   2. statistics  --not done
+
+29 march 2023
+1. maths -notes--done   
 
