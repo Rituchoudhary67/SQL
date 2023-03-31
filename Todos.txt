@@ -106,6 +106,6 @@ note - not statified wit todays work
 3. maths[backlog]--done
 
 31 march 2023
-1. maths[backlog]
-2. statistics[backlog]
+1. maths[backlog]--part1-(unit 1)
+2. statistics[backlog]--part1(unit 3)
 
