@@ -103,5 +103,9 @@ note - not statified wit todays work
 30 march 2023
 1. maths - notes-revision
 2. statistics-part2
-3. maths[backlog]
+3. maths[backlog]--done
+
+31 march 2023
+1. maths[backlog]
+2. statistics[backlog]
 
