@@ -109,5 +109,7 @@ note - not statified wit todays work
 1. maths[backlog]--part1-(unit 1)--40% done
 2. statistics[backlog]--part1(unit 3)--40% done
 
-
+1 April 2023
+1. maths[backlog]--part1-(unit 1)---working
+2. statistics[backlog]--part1(unit 3)
 
