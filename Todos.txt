@@ -118,5 +118,8 @@ note - not statified wit todays work
 2. statistics[backlog]
 note :- any how i have to complete the todays task by tonight
 
+3 April 2023
+1. maths[backlog]--part1[unit 2]
+2. statistics[part1]--[unit 3]
 
 
