@@ -135,5 +135,7 @@ note :- any how i have to complete the todays task by tonight
 7 April 2023
 1. statistics--part1--unit2-[backlog] 
 
-
+8 April 2023
+1. maths[backlog]--part1 
+2. statistics[backlog]--part1 --unit 2
 
