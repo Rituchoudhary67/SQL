@@ -163,7 +163,7 @@ part1 is done i prepared two unit feel statified
 
 15 April 2023
 6 hr study plan
-1. reading book
+1. reading book --done
 2. statistics[backlog]
 3. maths[backlog]
 4. cs assignment
